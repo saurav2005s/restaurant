@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+    background-color: azure;
+}
+.logo{
+    font-size: 40px;
+    color: rgb(180, 15, 15);
+} 
+.nav{
+    position: relative;
+    left: -180px;
+}
+
+    
+/* Heading */
+ .Heading{ 
+    display: flex;
+   
+    padding-top: 50px;
+    align-items: center;
+     margin-left:200px ;
+} 
+ .right img{
+    width: 40%;
+    display: flex;
+    position: absolute; 
+    align-items: center;
+    right: 100px;
+    border: 10px solid rgb(145, 15, 37);
+    
+ }
+ .left p:nth-child(1){
+    color: antiquewhite;
+    font-size: 30px; 
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.left h1{
+    font-size: 90px;
+    color: rgb(16, 184, 58);
+}
+.left p:nth-child(3){
+    color: orangered;
+    font-size: 30px;
+    font-style: italic;
+}
+.left button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+}
+ 
+
+
+
